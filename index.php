@@ -20,7 +20,6 @@ $tableQuery = 'SELECT `id`, `name`,`url` FROM `products`';
         <th>id</th>
         <th>name</th>
         <th>url</th>
-        <th>category</th>
     </tr>
 
     <? foreach ($db->query($tableQuery, PDO::FETCH_ASSOC) as $item) { ?>
